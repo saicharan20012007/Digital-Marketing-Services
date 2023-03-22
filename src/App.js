@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import AccomplishMarketingGoals from "./components/AccomplishMarketingGoals";
+import Header from "./components/Header";
+import RealBusinessDevelopment from "./components/RealBusinessDevelopment";
+import NatureBrandGrowth from "./components/NatureBrandGrowth";
+import DigitalSolutions from "./components/DigitalSolutions";
+import WhyChoose from "./components/WhyChoose";
+import PrabishaStrategic from "./components/PrabishaStrategic";
+
+const App = () => (
+  <>
+    <Header />
+    <AccomplishMarketingGoals />
+    <RealBusinessDevelopment />
+    <NatureBrandGrowth />
+    <DigitalSolutions />
+    <WhyChoose />
+    <PrabishaStrategic />
+  </>
+);
 
 export default App;
